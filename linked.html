@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Clone Layout</title>
+    <link rel="stylesheet" href="linked.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <button class="new-chat">+ New Chat</button>
+            <div class="history">
+                <p>Yesterday's Chat</p>
+                <p>Project Ideas</p>
+                <p>How to use CSS Flexbox</p>
+            </div>
+        </aside>
+
+        <main class="chat-area">
+            <header class="chat-header">ChatGPT 4o</header>
+            
+            <div class="message-container">
+                <div class="message user">How do I center a div?</div>
+                <div class="message ai">You can use <code>display: flex; justify-content: center; align-items: center;</code> on the parent container.</div>
+            </div>
+
+            <div class="input-wrapper">
+                <div class="input-box">
+                    <input type="text" placeholder="Message ChatGPT...">
+                    <button class="send-btn">↑</button>
+                </div>
+                <p class="footer-text">ChatGPT can make mistakes. Check important info.</p>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
