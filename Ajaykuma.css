@@ -1,0 +1,73 @@
+.container{
+    background-color:brown;
+    border:5px solid black;
+    padding:30px;  
+    height:40px;   
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+
+
+}
+.menu{
+    display: contents;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.menu input{
+    height:25px;
+    width:250px;
+    border-radius:5px;
+    border:2px solid black;
+    padding-left:10px;
+}
+.logo{
+    color:white;
+    font-size:30px; 
+    font-weight:bold;   
+}
+.logo h1{
+    text-decoration: none;
+    color:white;    
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:20px;
+}
+.nav a{
+    text-decoration: none;
+    color:white;
+    font-size:18;
+}
+
+.pag0body{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    flex-grow: 1;
+
+}
+.sidebar{
+    color:black;
+    background-color:lightskyblue;
+    width:120px;
+    height:100vh;
+    padding:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+}
+.sidebar a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    margin-bottom: 10px;
+}
+.email-icon{
+    width:20px;
+    height:20px;
+    margin-right:10px;
+}

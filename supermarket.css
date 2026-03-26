@@ -1,0 +1,59 @@
+ :root {
+    --ai-glow: #00f2fe;
+    --ai-purple: #7028e4;
+    --dark-bg: #0b0e14;
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.ai-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Glassmorphism Sidebar */
+.ai-sidebar {
+    width: 260px;
+    background: rgba(255, 255, 255, 0.03);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+}
+
+/* Futuristic AI Input */
+.ai-input-wrapper {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#ai-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 10px;
+    outline: none;
+}
+
+/* The "Glow" Button */
+.ai-send-btn {
+    background: linear-gradient(45deg, var(--ai-glow), var(--ai-purple));
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 242, 254, 0.4);
+}

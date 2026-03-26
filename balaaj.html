@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .container{
+            display:flex;
+            flex-direction: row;
+            gap:20px;
+        }
+        .sidebar{
+            width:150px;
+            height:100vh;
+            background-color: #002159;
+            display: flex;
+            flex-direction: column; 
+        }
+
+        .sidebar h2{
+            color:white;
+            padding:10px;
+            font-family:"Roboto";
+            text-align: center;;
+        }
+        .sidebar-iltale{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+        }
+        .logout{
+            margin-top:auto
+        }
+
+        .icon{
+            font-size:19px;
+            color:white;
+            padding: 19px;;
+        }
+        .icon-names{
+            color:white;
+            font-family: "Roboto";      
+            font-size:19px; 
+        
+
+        }
+        .profile-pic{
+            height:50px;
+            width:50px;
+            border-radius:40px;
+            padding:10px;
+        }
+        .icon-names1{
+            color:white;
+            font-family: "Roboto";      
+            font-size:19px; 
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div>
+                <h2>Dashboard</h2>
+                <div class="sidebar-iltale">
+                    <i class="fa fa-home icon"></i>
+                    <p class="icon-names">Home</p>
+                </div>
+                <div class="sidebar-iltale">
+                    <i class="fa fa-download icon"></i>
+                    <p class="icon-names">Download</p>
+                </div>
+                <div class="sidebar-iltale">
+                    <i class="fa fa-star  icon"></i>
+                    <p class="icon-names">Starred</p>
+                </div>
+                <div class="sidebar-iltale">
+                    <i class="fa fa-cog  icon"></i>
+                    <p class="icon-names">Settings</p>
+                </div>
+            </div>
+            
+        
+           <div class="sidebar-iltale logout">
+            <img src="https://assets.ccbp.in/frontend/intermediate-rwd/user-profile-img.png" alt="image" class="profile-pic">
+               <p class="icon-names1">Logout</p>
+           </div>
+           
+    </div>
+    
+</body>
+</html>
